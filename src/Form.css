@@ -48,11 +48,11 @@
     color: rgb(126, 126, 126);
 }
 .forgot{
-    margin-left: 75px;
+    margin-left: 83px;
     margin-top: 1px;
 }
 .login{
-    width: 375px;
+    width: 385px;
     height: 40px;
     font-size: 15px;
     font-weight: bold;
@@ -69,13 +69,13 @@
     margin-left: 5%;
 }
 .signup p{
-    margin-left: 48%;
+    margin-left: 45%;
     margin-top: 7%;
 }
 .icons{
     color: rgb(126, 126, 126);
     display: flex;
-    margin-left: 25%;
+    margin-left: 26%;
 }
 .facebook{
     border: 1px solid rgb(126, 126, 126);

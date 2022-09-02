@@ -51,7 +51,7 @@ const Form = () => {
               Login
             </button>
             <p className="or">
-              ________________________ Or _______________________
+              _________________________ Or ________________________
             </p>
             <div className="icons">
               <div className="facebook">
