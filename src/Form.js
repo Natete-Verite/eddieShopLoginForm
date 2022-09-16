@@ -4,6 +4,8 @@ import { FaGoogle } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import "./Form.css";
 import image from "./edishop.png";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const Form = () => {
   const [email, setEmail] = useState("");
@@ -35,7 +37,7 @@ const Form = () => {
             />
             <p id="password">Password</p>
             <input
-              type="text"
+              type="password"
               id="passwordd"
               placeholder="at least 8 characters"
               onChange={(e) => {
@@ -66,6 +68,9 @@ const Form = () => {
             </div>
           </div>
         </form>
+        
+        {email ? <Footer email= {email} /> : <Navbar />}
+        
       </div>
       <div className="image">
         <div className="signup">
